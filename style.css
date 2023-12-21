@@ -26,6 +26,11 @@ body{
     box-shadow:0px 5px 10px rgba(43, 41, 41, 0.1) ;
     position: relative;
 }
+ .profile-card:hover{
+    
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.426);
+    transition: all ease 0.3s;
+ }
 
 .image{
     position: relative;
@@ -104,9 +109,13 @@ body{
     padding: 8px 25px;
     background-color:rgb(33, 84, 237);
     transition: all 0.4s ease;
+    border:0;
 }
 .buttons .butn:hover{
     background-color: rgb(2, 2, 162);
+    transform: scale(1.2);
+    border: 0;
+    box-shadow: 3px 3px 6px rgba(168, 167, 167, 0.863);
 }
 .profile-card .anal{
     display: flex;
