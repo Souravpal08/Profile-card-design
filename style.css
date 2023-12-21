@@ -1,0 +1,127 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Poppins:wght@200;300;400&display=swap');
+
+* {;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(251, 211, 154);
+}
+.profile-card{
+     display: flex;
+    flex-direction: column;
+    align-items:center ;
+    max-width: 350px;
+    width:100vh ;
+    background:#fffffff6 ;
+    border-radius: 25px;
+    padding: 25px;
+    box-shadow:0px 5px 10px rgba(43, 41, 41, 0.1) ;
+    position: relative;
+}
+
+.image{
+    position: relative;
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: ;
+    padding: 3px;
+    margin-bottom: 10px;
+
+}
+.image .mypic{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+
+}
+.profile-card .input-data{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    color:rgb(45, 34, 34);
+}
+.input-data .name{
+    
+    font-size:25px;
+    font-weight: 700;
+}
+.input-data .job{
+    font-size: 18px;
+    font-weight: 500;
+}
+.profile-card .media-buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.media-buttons .link{
+    height: 35px; 
+    width:35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    margin: 0 9px;
+    text-decoration:none ;
+    background-color: rgb(5, 76, 207);
+}
+.profile-card .buttons{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top:30px;
+}
+.profile-card::before{
+    content:"" ;
+    position: absolute;
+    height: 35%;
+    width:100%;
+    top: 0;
+    left: 0;
+    border-radius: 22px 22px 0px 0px;
+    background-color:brown;
+}
+.buttons .butn{
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 25px;
+    margin:0px 10px ;
+    cursor: pointer;
+    padding: 8px 25px;
+    background-color:rgb(33, 84, 237);
+    transition: all 0.4s ease;
+}
+.buttons .butn:hover{
+    background-color: rgb(2, 2, 162);
+}
+.profile-card .anal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    transition: all 0.3s ease;
+}
+.profile-card .data{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-right:2px solid #fff
+}
+.data i{
+    font-size:21px ;
+    margin-right: 5px;
+ }
